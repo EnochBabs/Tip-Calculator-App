@@ -1,0 +1,171 @@
+- Strong cyan: hsl(172, 67%, 45%)
+
+### Neutral
+
+- Very dark cyan: hsl(183, 100%, 15%)
+- Dark grayish cyan: hsl(186, 14%, 43%)
+- Dark grayish cyan: hsl(184, 14%, 56%)
+- Light grayish cyan: hsl(185, 41%, 84%)
+- Light grayish cyan: hsl(189, 41%, 97%)
+- White: hsl(0, 0%, 100%)
+
+
+* {
+  margin: 0;
+  padding: 0;
+  border-box: box-sizing;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  line-height: 1;
+  font-family: sans-serif;
+  margin: auto;
+  background-color: hsl(172, 67%, 45%);
+  height: 100vh;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container {
+  /* margin: 15vh auto; */
+  height: 50vh;
+  width: 800px;
+  background-color: white;
+  border-radius: 5px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.left-box {
+  width: 35rem;
+}
+
+.btn--space {
+  background-color: ;
+  border-radius: 5px;
+  padding: 1.2rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* display: inline-block; */
+}
+
+span {
+  color: hsl(183, 92%, 10%);
+  font-weight: 400;
+  font-size: 1.8rem;
+  background-color: hsl(189, 41%, 97%);
+}
+
+.text {
+  font-size: 1rem;
+  color: hsl(183, 100%, 15%);
+  /* margin-bottom: 0; */
+}
+
+.btn-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-self: center;
+}
+
+.btn-calc {
+  color: white;
+  background-color: hsl(183, 100%, 15%);
+  padding: 1.2rem;
+  margin: 1.2rem;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.btn-calc-2,
+.btn-calc-5,
+.btn-calc-1,
+.btn-calc-3,
+.btn-calc-4,
+.btn-calc-6 {
+  margin: 1.2rem;
+}
+
+.btn-icon-1 {
+  background-color: yellow;
+  padding: 0.7rem;
+  margin-bottom: 2rem;
+  background-color: hsl(189, 41%, 97%);
+
+  /* display: block; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-icon {
+  text-decoration: none;
+  color: hsl(186, 14%, 43%);
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.right-box {
+  background-color: hsl(183, 92%, 10%);
+  width: 30rem;
+  height: 25rem;
+  border-radius: 5px;
+  padding: 2rem;
+  /* height: 100vh; */
+}
+
+.flexit {
+  margin-bottom: 2rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flexit-2 {
+  margin-bottom: 9rem;
+}
+
+.left-text {
+  color: white;
+}
+
+.person {
+  color: hsl(186, 14%, 43%);
+}
+
+.number {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: hsl(172, 67%, 45%);
+}
+
+.reset {
+  background-color: hsl(172, 67%, 45%);
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+  padding: 0.8rem;
+  margin: 1rem;
+  border-radius: 5px;
+  font-size: 1.2rem;
+}
